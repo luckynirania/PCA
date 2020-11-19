@@ -1,3 +1,4 @@
 Datasets.zip
 __MACOSX/*
 virtualenv/*
+__pycache__/*
