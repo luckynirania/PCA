@@ -90,5 +90,5 @@ fig.suptitle('Visualization of 10 principal components')
 fig, axes = plt.subplots(3,10,figsize=(9,3), subplot_kw={'xticks':[], 'yticks':[]}, gridspec_kw=dict(hspace=0.01, wspace=0.01))
 for i, ax in enumerate(axes.flat):
     ax.imshow(faces_pca.reconstructed[i].reshape(64,64),cmap="gray")
-fig.suptitle('Reconstruction using ' + str(n_components) + ' componentes')
+fig.suptitle('Reconstruction using ' + str(n_components) + ' components')
 plt.show()
