@@ -1,4 +1,4 @@
-# Implementation of PCA
+# Implementation of Principal Component Analysis (PCA)
 
 Command to run the code
 
